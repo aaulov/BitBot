@@ -28,9 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BitBotMainWindow));
+            this.SuspendLayout();
+            // 
+            // BitBotMainWindow
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "BitBotMainWindow";
+            this.ClientSize = new System.Drawing.Size(723, 411);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "BitBotMainWindow";
+            this.Text = "Bit Bot";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
